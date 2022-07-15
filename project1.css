@@ -1,0 +1,488 @@
+.grid1{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    position: fixed;
+    z-index: 4;
+    box-shadow: 5px 1px 20px rgb(0, 0, 0);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(22, 77, 47);
+}
+
+.divphoto{
+    height: 130px;
+    width: 202px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 300px;
+    min-width: 161px;
+    background-color: black;
+}
+
+.photo{
+    margin-top: 0px;
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    display: inline-block;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+
+.photo:hover{
+    zoom: 1.1;
+}
+
+.divtitle{
+    height: 130px;
+    width: 797px;
+    max-width: 1fr;
+    top: 0px;
+    min-width: 400px;
+    flex-shrink: 1;
+    display: inline-block;
+    background: linear-gradient(to right,black,rgb(22, 77, 47));
+}
+
+.title{
+    font-size: 60px;
+    font-family: "tempus sans itc",arial,sans-serif;
+    text-align: center;
+    color: rgb(172, 102, 16);
+    display: block;
+    margin: 30px 50px 0px 50px ;
+    font-weight: bolder;
+}
+
+
+.divin{
+    width: 327px;
+    height: 130px;
+    flex-shrink: 0;
+    display: inline-block;
+    background-color: rgb(10, 150, 154);
+    right: 0px;
+    top: 0px;
+    border-top-left-radius: 100px;
+}
+
+.paid{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+}
+
+.paidimage{
+    width: 240px;
+    height: 130px;
+    margin-top: 0px;
+    margin-left: 110px;
+    border-bottom-left-radius: 90px;
+    flex-shrink: 0;
+}
+
+.paidimage:hover{
+    zoom: 1.07;
+}
+
+
+.midsite{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+    right: 0px;
+}
+
+
+.body{
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 122px;
+    margin-right: 310px;
+    left: 0px;
+    flex-shrink: 0.5;
+    z-index: 3;
+    min-width: 700px;
+    background-color:rgb(81, 92, 89);
+}
+
+.intro{
+    z-index: 2;
+    margin-left: 50px;
+    background-color: rgb(179, 187, 187);
+    display: inline-block;
+    font-family: "candara","sans-serif","arial";
+    position: relative;
+    margin-right: 0px;
+    flex-shrink: 0.5;
+}
+
+.h1{
+text-align: center;
+font-size:40px;
+font-family: "algerian","sans-serif","arial";
+text-decoration: overline;
+background-color: rgb(154, 165, 164);
+}
+
+.h2{
+    font-size: 35px;
+    text-align: center;
+    margin-left: 60px;
+    color: rgb(9, 77, 77);
+    font-family: "comic sans ms","sans-serif","arial";
+    display: inline-block;
+}
+
+.h2:hover{   
+    cursor: pointer;
+}
+
+.itext{
+    font-family: "comic sans ms", "sans-serif","arial";
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+p{
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+#sp{
+    text-align: justify;
+    margin-left: 80px;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    margin-left: 90px;
+    font-size:20px;
+    color: rgb(112, 34, 34);
+    display: inline-block;
+    text-decoration: underline;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+em{
+    color: rgb(12, 40, 114);
+    font-style: normal;
+    display: inline-block;
+}
+
+em:hover{
+    cursor: pointer;
+}
+
+ol{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.cl{
+    font-size: 12px;
+    color: green;
+    display: inline-block;
+}
+
+a{
+    color: rgb(112, 34, 34);
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.sug{
+    display: flex;
+    right: 0px;
+    height: 5000px;
+    width: 349px;
+    position: fixed;
+    top: 130px;
+    background-color: rgb(81, 92, 89);
+    display: 1fr;
+}
+
+.sugface{
+    display: inline-block;
+    background-color: rgb(73, 44, 43);
+    width: 300px;
+    height: 475px;
+    position: relative;
+    margin-left: 25px;
+    flex-shrink: 1;
+    top: 0px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 10px 10px 20px rgb(19, 18, 17);
+    transition: 1s;
+}
+
+.sugface:hover{
+    zoom: 1.009;
+
+}
+
+.h2s{
+    font-family: "ubuntu","sans-serif","arial";
+    padding: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline ;
+}
+
+.stitre{
+   display: inline-block;
+   font-family: "ubuntu","sans-serif","arial";
+}
+
+.ligne{
+    font-family: "ubuntu","sans-serif","arial";
+    color: antiquewhite;
+    text-align: justify;
+    display: block;
+    margin-left: 0px;
+    margin-right: 30px;
+    font-size: 13px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+
+
+
+.footer{ 
+    width: 950px;
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    z-index: 1;
+    bottom: 0px;
+}
+
+
+
+
+.mini{
+    background: linear-gradient(rgb(179, 187, 187),rgb(74, 77, 77)) ; 
+    display: inline-block;
+    width: 950px;
+}
+
+.pa{
+    display: block;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.para{
+    font-family: "candara","sans-serif","arial";
+    font-weight: bold;
+    padding-bottom: -4px;
+    font-size: larger;
+}
+
+.p{
+    display: block;
+    padding-bottom: 100px;
+}
+
+.email{
+    width: 300px;
+    height: 39px;
+    display: inline-block;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: none;
+    font-weight: 100;
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: rgb(248, 244, 244);
+    margin-left: 300px;
+    margin-right: -4px;
+}
+
+.email:hover{
+    box-shadow: -1px 1px 10px rgb(143, 4, 4);
+    border: none;
+}
+
+.email:active{
+    border:none;
+}
+
+.bou{
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    display: inline-block;
+    color: rgb(179, 169, 169);
+    background-color: rgb(143, 4, 4);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 17px;
+    font-weight: 90px;
+    margin-left: 0px;
+}
+
+.bou:hover{
+    box-shadow: 3px 2px 10px rgb(143, 4, 4);
+    cursor: pointer;
+}
+
+.bou:active{
+    opacity: 0.7;
+}
+
+
+.a{
+    display: inline-block;
+    margin-left: 600px;
+}
+
+.ap{
+    font-family: "candara","sans-serif","arial";
+    font-weight: 200px;
+    padding-bottom: 20px;
+    display: block;
+    font-style: italic;
+}
+
+.facebook{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fb{
+    width: 30px;
+    height: 30px;
+    border-radius: 17px;
+    box-shadow: 2px 1px 10px rgb(66, 66, 66);
+}
+
+.fb:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.telegram{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tl{
+    width: 30px;
+    height: 30px;
+    border-radius: 17px;
+    box-shadow: 2px 1px 10px rgb(66, 66, 66);
+}
+
+.tl:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.gmail{
+    display: inline-block;
+}
+
+.gm{
+    width: 32px;
+    height: 29px;
+    border-radius: 17px;
+    box-shadow: 2px 1px 10px rgb(66, 66, 66);
+}
+
+.gm:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.whatsapp{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.wh{
+    width: 32px;
+    height: 32px;
+    border-radius: 17px;
+    box-shadow: 2px 1px 10px rgb(66, 66, 66);
+}
+
+.wh:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+
+
+.upfooter{  
+    background-color: rgb(39, 41, 41);
+    display: inline-block;
+    width: 950px;
+    padding-top: 10px;  
+}
+
+.cob{
+    padding: 5px;
+    display: block;
+    font-family: "candara","sans-serif","arial";
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+    color: rgb(54, 54, 102);
+}
+
+.cob:hover{
+    cursor: pointer;
+}
+
+.down{
+    color: rgb(183, 200, 214);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.divend{
+    width: 950px;
+    height: 40px;
+    background-color: rgb(26, 4, 7);
+    display: inline-block;
+    bottom: 0px;
+    position: relative;
+}
+
+.end{
+    text-align: center;
+    color: black;
+    text-align: center;
+    display: block;
+    color: rgb(172, 147, 114);
+    font-family: "candara","sans-serif","arial";
+    font-weight: smaller;
+    font-size: 12px;
+    
+}
+
+.fin{
+    color: rgb(141, 168, 96);
+    text-decoration: none;
+}
